@@ -1,12 +1,14 @@
 import time
 import maze_solver.config as config
 
-from src.maze_solver.window import Window
-from src.maze_solver.maze import Maze
+from maze_solver.window import Window
+from maze_solver.maze import Maze
 
 
 def main():
     win = Window(800,600)
+
+    time.sleep(config.start_delay)
 
     maze = Maze(
         50,
@@ -16,7 +18,7 @@ def main():
         50,
         50,
         win,
-        #seed=config.seed,
+        seed=config.seed,
     )
     maze.solve()
 

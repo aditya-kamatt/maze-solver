@@ -1,0 +1,2 @@
+[console_scripts]
+maze-solver = maze_solver.app:main

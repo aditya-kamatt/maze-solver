@@ -5,3 +5,6 @@ requires-python = ">=3.12"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[project.scripts]
+maze-solver = "maze_solver.app:main"

@@ -18,7 +18,7 @@ This project demonstrates core algorithmic concepts such as **Depth-First Search
 
 ## Demo
 
-![Maze Demo](assets/demo.gif)
+![Maze Demo](assets/demo.GIF)
 
 
 
